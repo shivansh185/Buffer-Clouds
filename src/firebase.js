@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword ,signInWithPopup,GoogleAuthProvider,GithubAuthProvider,onAuthStateChanged ,signOut} from "firebase/auth";
-import { getFirestore, collection, addDoc } from "firebase/firestore";
+import { getAuth, createUserWithEmailAndPassword,deleteUser ,signInWithPopup,GoogleAuthProvider,GithubAuthProvider,onAuthStateChanged ,signOut} from "firebase/auth";
+import { getFirestore,setDoc, doc, getDoc, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBsNlltpiZjBtaCoAOfiJSCAXHr9Wxlz3o",
@@ -18,6 +18,6 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-export { auth, db, createUserWithEmailAndPassword,signInWithPopup,GoogleAuthProvider,GithubAuthProvider,signOut,onAuthStateChanged, collection, addDoc };
+export { auth, db,setDoc, deleteUser, createUserWithEmailAndPassword,signInWithPopup,GoogleAuthProvider,GithubAuthProvider,signOut,onAuthStateChanged, collection, addDoc, getFirestore, doc, getDoc,};
 
 
