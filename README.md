@@ -93,8 +93,8 @@ Make sure you have the following installed:
 - **Task Management**: Add tasks to specific dates in the calendar.
 - **Notes**: Save and retrieve personal notes from Firestore.
 
-## Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+## Youtube link:-
+[Contributions are welcome! Feel free to fork the repo and submit a pull request.](https://www.youtube.com/watch?v=LHZ_F_TGeho)
 
 ## License
 This project is licensed under the MIT License.
