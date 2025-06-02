@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import Welcome from './pages/welcome';
 import Data from './pages/data';
-import Samplesignup from './pages/SampleSIgnup';
+import Samplesignup from './pages/Samplesignup';
 import Login from './pages/login';
 import CodeEditorBase from './pages/CodeEditor';
 import PyCodeEditorBase from './pages/pyeditorbase';
